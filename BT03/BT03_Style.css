@@ -1,0 +1,31 @@
+/* SS07_BT03_Nguyễn Bình Lam Nghi */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.btn {
+  background-color: rgb(4, 184, 255);
+  color: white;
+  width: calc(25% - 20px);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#big {
+  width: calc(50% - 20px);
+}
+
+
+
