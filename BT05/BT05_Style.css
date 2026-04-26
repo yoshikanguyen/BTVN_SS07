@@ -1,0 +1,63 @@
+/* SS07_BT05_Nguyễn Bình Lam Nghi */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+/* phương án 1 */
+.all1 {
+  display: flex;
+  gap: 20px
+}
+
+.all1 > div {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  height: 300px;
+  }
+
+.btn1 {
+  background-color: black;
+  color: white;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big1 {
+  height: 50%;
+}
+
+.small1 {
+  height: 25%;
+}
+
+/* phương án 2 */
+.all2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
+  background-color: rgb(155, 255, 255);
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big2 {
+  grid-row: span 2;
+  height: auto;
+}
